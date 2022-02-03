@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include "iostream.h"
+#include "conio.h"
+
+using namespace std;
+
+
+typedef struct student
+{
+	int id;
+};
+student st[3];
+int c=-1;
+void menu();
+void add();
+void del();
+void display();
