@@ -1,0 +1,22 @@
+int i=0;
+while (n>0){
+a[i]=n%16;
+n=(int)n/16;
+i++;
+}
+for (int j=i-1;j>=0;j--){
+if (a[j]<10) cout<<a[j];
+if (a[j]>=10){
+switch (a[j]){
+case 10:cout<<"A";break;
+case 11:cout<<"B";break;
+case 12:cout<<"C";break;
+case 13:cout<<"D";break;
+case 14:cout<<"E";break;
+case 15:cout<<"F";break;
+}
+}
+}
+
+getch();
+}
