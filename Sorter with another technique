@@ -1,0 +1,269 @@
+#include <iostream.h>
+#include <conio.h>
+
+void sort();
+
+void main()
+{
+sort();
+getch();
+
+}
+
+void sort()
+{
+ int a[6];
+ int b[6];
+ int c[12];
+int d[12];
+ int i,j,tmp,tmp1;
+
+ for(i=0;i<6;++i)
+  {
+   cout<<"enter number:  ";
+    cin>>a[i];
+  }
+
+ for(i=0;i<6;++i)
+ {
+  cout<<"enter number:   ";
+  cin>>b[i];
+ }
+ for(i=0;i<6;++i)
+  if(a[i]>=b[i])
+  {
+   tmp=a[i];
+   a[i]=b[i];
+   b[i]=tmp;
+  }
+
+  tmp=100;
+  for(i=0;i<6;++i)
+    if(a[i]<tmp)
+    {
+    tmp=a[i];
+    tmp1=i;
+    }
+    a[tmp1]=100;
+    c[0]=tmp;
+tmp=100;
+    for(i=0;i<6;++i)
+     if(a[i]<tmp)
+     {
+      tmp=a[i];
+      tmp1=i;
+     }
+     a[tmp1]=100;
+     c[1]=tmp;
+tmp=100;
+   for(i=0;i<6;++i)
+     if(a[i]<tmp)
+     {
+      tmp=a[i];
+      tmp1=i;
+     }
+     a[tmp1]=100;
+     c[2]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(a[i]<tmp)
+     {
+      tmp=a[i];
+      tmp1=i;
+     }
+     a[tmp1]=100;
+     c[3]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(a[i]<tmp)
+     {
+      tmp=a[i];
+      tmp1=i;
+     }
+     a[tmp1]=100;
+     c[4]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(a[i]<tmp)
+     {
+      tmp=a[i];
+      tmp1=i;
+     }
+     a[tmp1]=100;
+     c[5]=tmp;
+
+
+  tmp=100;
+  for(i=0;i<6;++i)
+    if(b[i]<tmp)
+    {
+    tmp=b[i];
+    tmp1=i;
+    }
+    b[tmp1]=100;
+    c[6]=tmp;
+tmp=100;
+    for(i=0;i<6;++i)
+     if(b[i]<tmp)
+     {
+      tmp=b[i];
+      tmp1=i;
+     }
+     b[tmp1]=100;
+     c[7]=tmp;
+tmp=100;
+    for(i=0;i<6;++i)
+     if(b[i]<tmp)
+     {
+      tmp=b[i];
+      tmp1=i;
+     }
+     b[tmp1]=100;
+     c[8]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(b[i]<tmp)
+     {
+      tmp=b[i];
+      tmp1=i;
+     }
+     b[tmp1]=100;
+     c[9]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(b[i]<tmp)
+     {
+      tmp=b[i];
+      tmp1=i;
+     }
+     b[tmp1]=100;
+     c[10]=tmp;
+tmp=100;
+ for(i=0;i<6;++i)
+     if(b[i]<tmp)
+     {
+      tmp=b[i];
+      tmp1=i;
+     }
+     b[tmp1]=100;
+     c[11]=tmp;
+
+
+
+
+ tmp=100;
+  for(i=0;i<12;++i)
+    if(c[i]<tmp)
+    {
+    tmp=c[i];
+    tmp1=i;
+    }
+    c[tmp1]=100;
+    d[0]=tmp;
+tmp=100;
+    for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[1]=tmp;
+tmp=100;
+   for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[2]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+c[tmp1]=100;
+     d[3]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[4]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[5]=tmp;
+
+
+  tmp=100;
+  for(i=0;i<12;++i)
+    if(c[i]<tmp)
+    {
+    tmp=c[i];
+    tmp1=i;
+    }
+    c[tmp1]=100;
+    d[6]=tmp;
+tmp=100;
+    for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[7]=tmp;
+tmp=100;
+    for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[8]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[9]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[10]=tmp;
+tmp=100;
+ for(i=0;i<12;++i)
+     if(c[i]<tmp)
+     {
+      tmp=c[i];
+      tmp1=i;
+     }
+     c[tmp1]=100;
+     d[11]=tmp;
+
+
+for(i=0;i<12;++i)
+ cout<<c[i]<<"\n";
+
+}
